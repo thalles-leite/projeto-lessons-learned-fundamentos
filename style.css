@@ -51,12 +51,25 @@ body {
 }
 
 .conteudo {
-    margin-top: 92.5px;
+    margin-top: 102.5px;
 }
 
 .aside {
-    background-color: red;
+    background-color: #ebeaea;
     width: 20%;
     min-height: 100px;
     display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+
+#minha_foto {
+    width: 80%;
+    border-radius: 50%;
+
+}
+
+.imagem {
+    text-align: center;
 }
