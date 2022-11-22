@@ -1,48 +1,62 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: 'Exo 2', sans-serif;
+    background-color: rgb(253, 251, 251);
+    font-family: 'Exo 2', sans-serif;
 }
+
 #cabecalho {
-  position: fixed;
-  top: 0;
-  background-color: #022C16;
-  color: white;
-  padding: 15px;
-  width: 100%;
-  text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #022C16;
+    color: white;
+    width: 100%;
+    text-align: center;
+
 }
-#titulo{
-    
+
+#titulo {
+    padding: 15px;
 }
-.navlinks{
-    
-    margin-top: 68.5px;
+
+.navlinks {
+    /* font-size: 12px; */
     display: inline-block;
     width: 100%;
     text-align: left;
     /*background-color: RGB(2, 44, 22);*/
-    background-color: RGB(0,80,7);
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: RGB(0, 80, 7);
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.navlinks li{
-    font-size: 20px;
+
+.navlinks li {
     display: inline-block;
     margin: 2px 0 3px 10px;
-    padding: 5px;
+    /* padding: 5px; */
     color: white;
-    
 }
-.navlinks li:hover{
+
+.navlinks li:hover {
     background-color: RGB(2, 44, 22);
     cursor: pointer;
 }
-.contato{
+
+.contato {
     float: right;
+}
+
+.conteudo {
+    margin-top: 92.5px;
+}
+
+.aside {
+    background-color: red;
+    width: 20%;
+    min-height: 100px;
+    display: inline-block;
 }
