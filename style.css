@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Exo 2', sans-serif;
 }
 #cabecalho {
   position: fixed;
@@ -17,5 +18,31 @@ body {
   text-align: center;
 }
 #titulo{
-    font-family: 'Exo 2', sans-serif;
+    
+}
+.navlinks{
+    
+    margin-top: 68.5px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    /*background-color: RGB(2, 44, 22);*/
+    background-color: RGB(0,80,7);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navlinks li{
+    font-size: 20px;
+    display: inline-block;
+    margin: 2px 0 3px 10px;
+    padding: 5px;
+    color: white;
+    
+}
+.navlinks li:hover{
+    background-color: RGB(2, 44, 22);
+    cursor: pointer;
+}
+.contato{
+    float: right;
 }
