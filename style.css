@@ -7,3 +7,15 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: #022C16;
+  color: #FFFFFF;
+  padding:15px;
+  width: 100%;
+  text-align: center;
+}
+#titulo{
+    
+}
