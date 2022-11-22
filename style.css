@@ -11,11 +11,11 @@ body {
   position: fixed;
   top: 0;
   background-color: #022C16;
-  color: #FFFFFF;
-  padding:15px;
+  color: white;
+  padding: 15px;
   width: 100%;
   text-align: center;
 }
 #titulo{
-    
+    font-family: 'Exo 2', sans-serif;
 }
