@@ -83,7 +83,7 @@ body {
 }
 
 .aprendizado p {
-    padding: 10px;
+    padding: 20px;
 }
 
 .aprendizado_titulo {
@@ -147,4 +147,28 @@ body {
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
+}
+
+#rodape {
+    margin-top: 20px;
+    bottom: 0;
+    background-color: #022C16;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#rodape a {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.trybe {
+    color: #005007;
+    font-weight: bold;
 }
