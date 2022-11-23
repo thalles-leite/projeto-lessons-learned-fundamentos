@@ -54,10 +54,11 @@ body {
 .conteudo {
 
     width: 100%;
+    line-height: 2em;
 
 }
 
-.aside {
+.lado-esquerdo {
     background-color: #ebeaea;
     width: 20%;
     display: inline-block;
@@ -72,7 +73,7 @@ body {
     font-size: 12px;
 }
 
-.aprendizado {
+.lado-direito {
     margin-left: 2%;
     display: inline-block;
     width: 73%;
@@ -82,7 +83,7 @@ body {
     border-radius: 10px;
 }
 
-.aprendizado p {
+.lado-direito p {
     padding: 20px;
 }
 
