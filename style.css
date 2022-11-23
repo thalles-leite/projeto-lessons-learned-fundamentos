@@ -68,19 +68,35 @@ body {
     margin-bottom: 20px;
 }
 
+.sub_titulo {
+    font-size: 12px;
+}
+
 .aprendizado {
+    margin-left: 2%;
     display: inline-block;
     width: 73%;
+    text-align: justify;
+}
+
+.aprendizado p {
+    padding: 10px;
+}
+
+.aprendizado_titulo {
+    background-color: #005007;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
 }
 
 
 .licoes {
-    min-height: 300px;
-    /* display: inline-block; */
     border-radius: 10px;
     background-color: #ebeaea;
-    width: 73%;
-    margin-left: 2%;
+    width: 96%;
+    margin: 0 auto;
 }
 
 
