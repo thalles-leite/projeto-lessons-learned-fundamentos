@@ -58,29 +58,33 @@ body {
 }
 
 .aside {
-    position: absolute;
     background-color: #ebeaea;
     width: 20%;
     display: inline-block;
     padding: 20px;
-    margin-left: 2%;
     border-radius: 5%;
+    vertical-align: top;
+    margin-left: 2%;
 }
 
 
 .licoes {
-    position: absolute;
     min-height: 300px;
     display: inline-block;
-    margin-left: 25%;
-    width: 72%;
     border-radius: 10px;
     background-color: #ebeaea;
+    width: 73%;
+    margin-left: 2%;
 }
+
 
 .listalicoes {
     padding: 20px;
 
+}
+
+#licoes_aprendidas {
+    margin-bottom: 70px;
 }
 
 .licoes li {
