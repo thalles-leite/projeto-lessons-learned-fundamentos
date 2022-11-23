@@ -77,6 +77,9 @@ body {
     display: inline-block;
     width: 73%;
     text-align: justify;
+    background-color: #ebeaea;
+    min-height: 298.35px;
+    border-radius: 10px;
 }
 
 .aprendizado p {
@@ -126,6 +129,7 @@ body {
 #minha_foto {
     width: 80%;
     border-radius: 50%;
+    border: 3px solid green;
 
 }
 
