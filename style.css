@@ -65,12 +65,18 @@ body {
     border-radius: 5%;
     vertical-align: top;
     margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+.aprendizado {
+    display: inline-block;
+    width: 73%;
 }
 
 
 .licoes {
     min-height: 300px;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 10px;
     background-color: #ebeaea;
     width: 73%;
