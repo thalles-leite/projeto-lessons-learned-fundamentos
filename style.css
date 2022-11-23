@@ -1,216 +1,206 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Exo 2', sans-serif;
-    padding-top: 122.5px;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 122.5px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: #022C16;
-    color: white;
-    width: 100%;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: #022c16;
+  color: white;
+  width: 100%;
+  text-align: center;
 
 }
 
 #titulo {
-    padding: 15px;
+  padding: 15px;
 }
 
 .navlinks {
-    /* font-size: 12px; */
-    display: inline-block;
-    width: 100%;
-    text-align: left;
-    /*background-color: RGB(2, 44, 22);*/
-    background-color: RGB(0, 80, 7);
-    padding-left: 40px;
-    padding-right: 40px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  background-color: rgb(0, 80, 7);
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navlinks li {
-    display: inline-block;
-    margin: 2px 0 3px 10px;
-    /* padding: 5px; */
-    color: white;
+  display: inline-block;
+  margin: 2px 0 3px 10px;
+  color: white;
 }
 
 .navlinks li:hover {
-    background-color: RGB(2, 44, 22);
-    cursor: pointer;
+  background-color: rgb(2, 44, 22);
+  cursor: pointer;
 }
 
 .contato {
-    float: right;
+  float: right;
 }
 
 .conteudo {
-
-    width: 100%;
-    line-height: 2em;
-
+  width: 100%;
+  line-height: 2em;
 }
 
 .lado-esquerdo {
-    background-color: #ebeaea;
-    width: 20%;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 5%;
-    vertical-align: top;
-    margin-left: 2%;
-    margin-bottom: 20px;
+  background-color: #ebeaea;
+  width: 20%;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5%;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-bottom: 20px;
 }
 
 .sub_titulo {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .lado-direito {
-    margin-left: 2%;
-    display: inline-block;
-    width: 73%;
-    text-align: justify;
-    background-color: #ebeaea;
-    min-height: 298.35px;
-    border-radius: 10px;
+  margin-left: 2%;
+  display: inline-block;
+  width: 73%;
+  text-align: justify;
+  background-color: #ebeaea;
+  min-height: 298.35px;
+  border-radius: 10px;
 }
 
 .lado-direito p {
-    padding: 20px;
+  padding: 20px;
 }
 
 .aprendizado_titulo {
-    /* margin-bottom: 20px; */
-    background-color: #005007;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+  /* margin-bottom: 20px; */
+  background-color: #005007;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
 }
 
 
 .licoes {
-    border-radius: 10px;
-    background-color: #ebeaea;
-    width: 96%;
-    margin: 0 auto;
+  border-radius: 10px;
+  background-color: #ebeaea;
+  width: 96%;
+  margin: 0 auto;
 }
 
 
 .listalicoes {
-    padding: 20px;
+  padding: 20px;
 
 }
 
 .listalicoes_aprender {
-    padding: 20px;
-    width: 49.8%;
-    display: inline-block;
+  padding: 20px;
+  width: 49.8%;
+  display: inline-block;
 }
 
 .dicas {
-    padding: 20px;
-    width: 49.8%;
-    display: inline-block;
-    vertical-align: top;
+  padding: 20px;
+  width: 49.8%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .titulo_dicas {
-
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    background-color: RGB(0, 80, 7);
-
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(0, 80, 7);
 }
 
 .tabela,
 th,
 td {
-    border: 1px solid #C0C0C0;
-    padding: 5px;
-
+  border: 1px solid #C0C0C0;
+  padding: 5px;
 }
 
 .tabela {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-
-
 #licoes_aprendidas {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .licoes li {
-    margin-bottom: 10px;
-    list-style-position: inside;
+  margin-bottom: 10px;
+  list-style-position: inside;
 }
 
 .titulo_licoes {
-
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    background-color: RGB(0, 80, 7);
-
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(0, 80, 7);
 }
 
 #minha_foto {
-    width: 80%;
-    border-radius: 50%;
-    border: 3px solid green;
+  width: 80%;
+  border-radius: 50%;
+  border: 3px solid green;
 
 }
 
 .imagem {
-    text-align: center;
+  text-align: center;
 }
 
 .title_hard,
 .title_soft {
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    background-color: #f5f5f5;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    padding: 5px;
-    border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #rodape {
-    margin-top: 20px;
-    bottom: 0;
-    background-color: #022C16;
-    color: white;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-#rodape a {
-    margin-right: 10px;
+  margin-top: 20px;
+  bottom: 0;
+  background-color: #022C16;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
+#rodape a {
+  margin-right: 10px;
+}
+
+
+
 .trybe {
-    color: #005007;
-    font-weight: bold;
+  color: #005007;
+  font-weight: 400;
 }
